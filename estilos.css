@@ -1,0 +1,125 @@
+*{margin:0;padding: 0; }
+/*html{
+	font-family: "Arial", sans-serif;
+	font-size: 16px;
+}*/
+body{
+	background-color: green;
+	background-image: url(pelota.png);
+}
+.letra{
+	font-size: 18px;
+	font-family: "Arial"
+}
+
+#menuPrincipal{
+background: #16d99f;
+text-align: center;
+}
+
+#menuPrincipal ul
+{list-style-type: none;
+}
+#menuPrincipal ul li
+{display: inline-block;
+}
+#menuPrincipal ul li a
+{color: white;
+display: block;
+font-family: "Arial";
+padding: 16px;
+text-decoration: none;}
+
+#menuPrincipal ul li a:hover{background-color: red;}
+
+.secciondos{
+	display: flex;
+	margin: 0 auto;
+}
+.imagenmenu{
+	text-align: center;
+	background: #54df2d;
+	width: 32%;		
+	padding: 1%;
+	box-sizing: border-box;
+	font-size: 30px;
+	color: red;
+
+		}
+.infotorneo{
+	text-align: center;
+	background: #54df2d;
+	width: 36%;		
+	padding: 6%;
+	box-sizing: border-box;
+	font-family: "Calibri"
+	}
+.infotorneodos{
+	text-align: center;
+	background: #54df2d;
+	width: 30%;		
+	padding: 5%;
+	}
+.formatos{
+	font-size: 20px;
+	font-family: "Arial Black"
+}
+
+.animacion{transition: 0.5s;
+transition-timing-function: linear;}
+/*ease/ease-in/ease-out/ease-in-out/linear*/
+.animacion:hover{transform:scale(1.1,1.1) rotate(1turn);}
+
+.clase{
+	margin-top: 20px;
+}
+
+.colorletra{
+	color: red;
+	font-family: "Arial Black"
+}
+.suspencion{
+	color: blue	;
+	font-size: 18px;
+	font-family: "Arial"
+}
+.titulos{
+	margin-top: 10px;
+	text-align: center;
+	padding: 1%;
+margin-right: auto;
+margin-left: auto;
+background: #a2afab;
+width: 95%;
+font-size: 24px;
+color: white;
+font-family: "Arial Black";
+}
+
+.secciones{
+	text-align: center;	
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;	
+	justify-content: space-around;
+	margin-top: 30px;
+}
+
+.seccion{
+	background:#99ff7c;
+	margin-right: auto;
+margin-left: auto;
+	width:75%
+}
+
+
+#footer{
+	background: #37d680;
+	padding: 10px;
+	font-family: "Arial" ;
+	margin-top: 15px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	color: #f6ea5e;
+}
